@@ -1,0 +1,7 @@
+drupal_form.routing:
+  path: '/my-form'
+  defaults:
+    _form: '\Drupal\drupal_form\Form\SimpleForm'
+    _title: 'My test form'
+  requirements:
+    _permission: 'access content'
